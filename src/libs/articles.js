@@ -1,4 +1,4 @@
-const articles = [
+export const articles = [
   {
     id: 0,
     title: "Pigeon Facts",
@@ -76,5 +76,3 @@ const articles = [
     ],
   },
 ];
-
-export default articles;
