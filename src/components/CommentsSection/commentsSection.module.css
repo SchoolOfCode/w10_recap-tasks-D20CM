@@ -1,0 +1,20 @@
+.commentsSection {
+  /* border: 3px solid rgb(80, 115, 227); */
+  margin: 0;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: azure;
+}
+
+.sectionBorderWrap {
+  margin: 1rem 0;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(
+    11deg,
+    rgba(80, 115, 227, 0.7906512946975666) 7%,
+    rgba(17, 161, 170, 0.7458333675266982) 87%
+  );
+  padding: 5px;
+  border-radius: 20px;
+}

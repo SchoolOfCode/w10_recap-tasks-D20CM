@@ -1,0 +1,19 @@
+.App {
+  background: rgb(80, 115, 227);
+  background: linear-gradient(
+    11deg,
+    rgba(80, 115, 227, 0.7906512946975666) 7%,
+    rgba(17, 161, 170, 0.7458333675266982) 92%,
+    rgba(162, 170, 17, 0.5018557764902836) 99%
+  );
+
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+}

@@ -1,0 +1,21 @@
+.comment {
+  margin: 1em;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 1em;
+  background-color: rgb(233, 251, 255);
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+  color: rgb(80, 115, 227);
+}
+
+p {
+  margin: 0;
+}
+
+.comment:nth-child(even) {
+  background-color: rgb(242, 251, 255);
+}

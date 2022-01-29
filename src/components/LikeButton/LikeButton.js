@@ -1,4 +1,5 @@
 import React from "react";
+import css from "./likeButton.module.css";
 
 export default function LikeButton({ article }) {
   function clickHandler(article) {
@@ -8,7 +9,7 @@ export default function LikeButton({ article }) {
 
   return (
     <button
-      className="like-button"
+      className={css.likeButton}
       onClick={() => {
         clickHandler(article);
       }}
