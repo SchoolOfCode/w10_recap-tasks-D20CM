@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./likeButton.module.css";
-
+import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 export default function LikeButton({ article }) {
   function clickHandler(article) {
     //do something here
@@ -14,7 +14,7 @@ export default function LikeButton({ article }) {
         clickHandler(article);
       }}
     >
-      Like 👍
+      Like <ThumbUpIcon className={css.thumbUp}>ThumbUp</ThumbUpIcon>
     </button>
   );
 }

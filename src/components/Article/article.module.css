@@ -12,3 +12,13 @@ h2 {
   color: rgb(80, 115, 227);
   text-align: center;
 }
+
+.feedbackWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.rating {
+  align-self: center;
+}

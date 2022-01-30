@@ -5,6 +5,8 @@
   padding: 0.5em 1em;
   border-radius: 20px;
   border: 2px solid rgb(80, 115, 227);
+  display: flex;
+  align-items: center;
 }
 
 .likeButton:hover {
@@ -13,4 +15,8 @@
   border: 2px solid rgb(17, 161, 170);
   transition: ease 0.3s;
   transform: scale(1.1);
+}
+
+.thumbUp {
+  margin-left: 0.5em;
 }
