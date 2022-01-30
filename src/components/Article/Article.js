@@ -9,7 +9,9 @@ export default function Article({ article }) {
     <article className={css.post}>
       <h2>{article.title}</h2>
       {article.paragraphs.map((paragraph) => (
-        <p key={paragraph.id}>{paragraph.text}</p>
+        <p className={css.articleText} key={paragraph.id}>
+          {paragraph.text}
+        </p>
       ))}
       <div className={css.feedbackWrapper}>
         <LikeButton article={article} />

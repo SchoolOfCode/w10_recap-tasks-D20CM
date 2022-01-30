@@ -5,8 +5,12 @@
   border-radius: 20px;
   padding: 2rem;
   max-width: 800px;
+  text-align: left;
 }
 
+.articleText {
+  text-align: left;
+}
 h2 {
   font-size: 2rem;
   color: rgb(80, 115, 227);
@@ -16,9 +20,12 @@ h2 {
 .feedbackWrapper {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+  width: 80%;
+  margin: 1em 0;
 }
 
 .rating {
   align-self: center;
+  margin-left: 3em;
 }

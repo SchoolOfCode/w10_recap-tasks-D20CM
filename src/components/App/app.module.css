@@ -9,6 +9,8 @@
 
   margin: 0;
   padding: 2rem;
+  min-height: 100vh;
+  text-align: center;
 }
 
 h1 {
@@ -16,4 +18,8 @@ h1 {
   text-align: center;
   color: rgb(255, 255, 255);
   font-size: 4rem;
+}
+
+p {
+  text-align: center;
 }

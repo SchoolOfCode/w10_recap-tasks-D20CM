@@ -5,7 +5,7 @@ export default function Comment({ comment }) {
   return (
     <div key={comment.id} className={css.comment}>
       <h4>{comment.name} says:</h4>
-      <p>{comment.text}</p>
+      <p className={css.commentText}>{comment.text}</p>
     </div>
   );
 }
