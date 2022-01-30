@@ -4,11 +4,10 @@ import { articles as dataset } from "../../libs/articles";
 import Articles from "../Articles/Articles";
 import LoginButton from "../Login/Login";
 import LogoutButton from "../Logout/Logout";
-import { Auth0Provider } from "@auth0/auth0-react";
 import { useAuth0 } from "@auth0/auth0-react";
 
 function App() {
-  const [articles, setArticles] = useState(dataset);
+  const [articles] = useState(dataset);
   const { isAuthenticated } = useAuth0();
 
   return isAuthenticated ? (
