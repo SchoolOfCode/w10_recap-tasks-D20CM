@@ -22,10 +22,24 @@ h2 {
   align-items: center;
   justify-content: flex-start;
   width: 80%;
+  max-width: 80%;
   margin: 1em 0;
 }
 
 .rating {
   align-self: center;
   margin-left: 3em;
+}
+
+@media screen and (max-width: 500px) {
+  .post {
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 90%;
+    text-align: left;
+  }
+
+  .rating {
+    margin-left: 0em;
+  }
 }

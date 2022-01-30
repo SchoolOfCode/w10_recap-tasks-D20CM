@@ -19,3 +19,12 @@
   padding: 5px;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 500px) {
+  .sectionBorderWrap {
+    padding: 0.2em;
+  }
+  .commentsSection {
+    padding: 0.2em;
+  }
+}

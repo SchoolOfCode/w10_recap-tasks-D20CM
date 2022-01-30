@@ -20,3 +20,9 @@
 .thumbUp {
   margin-left: 0.5em;
 }
+
+@media screen and (max-width: 500px) {
+  .likeButton {
+    margin: 1rem;
+  }
+}

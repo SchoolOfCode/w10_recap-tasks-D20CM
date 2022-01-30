@@ -16,6 +16,8 @@
 header {
   display: flex;
   justify-content: center;
+  max-width: 80%;
+  margin: auto;
 }
 
 .pigeon {
@@ -23,6 +25,9 @@ header {
   border-radius: 50%;
 }
 
+.pigeonLarge {
+  max-width: 80%;
+}
 h1 {
   margin: 0;
   text-align: center;
@@ -32,4 +37,22 @@ h1 {
 
 p {
   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .App {
+    font-size: 14px;
+    padding: 1rem;
+  }
+  header {
+    max-width: 90%;
+  }
+  h1 {
+    font-size: 3em;
+  }
+
+  .pigeon {
+    width: 4em;
+    border-radius: 50%;
+  }
 }
