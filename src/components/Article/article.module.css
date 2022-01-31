@@ -6,6 +6,9 @@
   padding: 2rem;
   max-width: 800px;
   text-align: left;
+  -webkit-box-shadow: 4px 5px 10px 0px rgba(7, 2, 41, 0.45);
+  -moz-box-shadow: 4px 5px 10px 0px rgba(7, 2, 41, 0.45);
+  box-shadow: 4px 5px 10px 0px rgba(7, 2, 41, 0.45);
 }
 
 .articleText {
